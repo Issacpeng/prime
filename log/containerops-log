@@ -1,0 +1,8 @@
+2016/02/25 12:55:20 [D] 
+2016/02/25 12:55:20 [D] ----------------------------------------------------------------------------------
+2016/02/25 12:55:20 [D] [GET] [/src-d/go-git.git/info/refs?service=git-receive-pack]
+2016/02/25 12:55:20 [D] [Header] map[User-Agent:[git/1.9.1] Cache-Control:[no-cache] Accept:[*/*] Accept-Encoding:[gzip] Pragma:[no-cache]]
+2016/02/25 17:19:54 [D] 
+2016/02/25 17:19:54 [D] ----------------------------------------------------------------------------------
+2016/02/25 17:19:54 [D] [GET] [/src-d/go-git.git/info/refs?service=git-receive-pack]
+2016/02/25 17:19:54 [D] [Header] map[Accept-Encoding:[gzip] Pragma:[no-cache] User-Agent:[git/1.9.1] Cache-Control:[no-cache] Accept:[*/*]]
