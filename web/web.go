@@ -32,6 +32,5 @@ func SetPrimeMacaron(m *macaron.Macaron) {
 	*/
 	//Setting Router
 	fmt.Println("##### SetPrimeMacaron #####")
-	fmt.Println("##### SetPrimeMacaron #####")
 	router.SetRouters(m)
 }
