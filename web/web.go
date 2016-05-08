@@ -7,8 +7,8 @@ import (
 
 	"github.com/prime/middleware"
 	"github.com/prime/router"
-	"github.com/wrench/setting"
 	"github.com/wrench/db"
+	"github.com/wrench/setting"
 )
 
 func SetPrimeMacaron(m *macaron.Macaron) {
@@ -24,12 +24,13 @@ func SetPrimeMacaron(m *macaron.Macaron) {
 	//Setting Middleware
 	middleware.SetMiddlewares(m)
 
-/*	//Start Object Storage Service if sets in conf
-	if strings.EqualFold(setting.OssSwitch, "enable") {
-		ossobj := oss.Instance()
-		ossobj.StartOSS()
-	}
-*/
+	/*	//Start Object Storage Service if sets in conf
+		if strings.EqualFold(setting.OssSwitch, "enable") {
+			ossobj := oss.Instance()
+			ossobj.StartOSS()
+		}
+	*/
 	//Setting Router
+	fmt.Println("##### SetPrimeMacaron #####")
 	router.SetRouters(m)
 }
